@@ -1,3 +1,4 @@
+import '@/themes/style.css'
 import './style.scss';
 
 import { of, concat, fromEvent, debounceTime, map, concatMap, Observable, from, Subject} from 'rxjs';
