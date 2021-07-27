@@ -11,5 +11,6 @@ const routeVariable = {
 }
 
 export function pagesVariableConfig(path: string) {
-  return Object.assign(routeVariable[path], global);
+  const variable = routeVariable[path] ?? {}
+  return Object.assign(variable, global);
 }

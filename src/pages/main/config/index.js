@@ -1,3 +1,3 @@
 export default {
-  title: "首页"
+  title: "我的信息"
 }

@@ -14,6 +14,15 @@ export default defineConfig({
     Handlebars({
       context: pagesVariableConfig
     }),
+    defineHtmlTagConfig({
+      links: [
+        {
+          rel: "icon",
+          type: "image/svg+xml",
+          href: "/favicon.svg"
+        }
+      ]
+    })
   ],
   build: {
     rollupOptions: {
